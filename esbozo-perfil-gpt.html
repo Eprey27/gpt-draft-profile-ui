@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/asana-style.css">
+    <title>Página de Perfil de Usuario</title>
+</head>
+<body>
+
+<header class="bg-dark py-2">
+    <div class="container d-flex justify-content-between">
+        <span class="text-white">PROFILE</span>
+        <div>
+            <a href="#" class="text-white mr-2">LOGIN</a>
+            <a href="#" class="text-white">MESSAGES</a>
+        </div>
+    </div>
+</header>
+
+<div class="container mt-5">
+    <div class="row">
+
+        <!-- Menú del lado izquierdo -->
+        <div class="col-md-3">
+            <ul class="list-group">
+                <li class="list-group-item"><a href="#">Ítem 1</a></li>
+                <li class="list-group-item"><a href="#">Ítem 2</a></li>
+                <li class="list-group-item"><a href="#">Ítem 3</a></li>
+            </ul>
+        </div>
+
+        <!-- Contenido principal -->
+        <div class="col-md-9">
+            <img src="./images/DALL·E 2023-10-13 22.17.44 - Photo of a quirky and comedic character with exaggerated glasses, a funny hat, and a big smile, appropriate for a user interface profile picture.png" alt="Imagen de perfil" class="rounded-circle mb-3" width="100">
+            <h2>Nombre Apellido</h2>
+            <textarea id="descriptionArea" class="form-control mb-3" rows="4" placeholder="Descripción larga..." readonly></textarea>
+            <button class="btn btn-dark" onclick="toggleEditMode()">Editar Perfil</button>
+            <button class="btn btn-secondary ml-2">Cambiar Imagen</button>
+        </div>
+
+    </div>
+</div>
+
+<footer class="mt-5 py-3 bg-light text-center">
+    © 2023 TuNombre. Todos los derechos reservados.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

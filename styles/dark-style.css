@@ -1,0 +1,63 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #212529; /* Color de fondo oscuro */
+    color: #e9ecef; /* Color de texto claro */
+}
+
+a {
+    color: #adb5bd; /* Color de enlace gris claro */
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f8f9fa; /* Color de enlace al pasar el cursor */
+}
+
+/* Header */
+header {
+    border-bottom: 1px solid #343a40; /* Borde inferior del header */
+}
+
+/* Menú lateral */
+.list-group-item {
+    background-color: #343a40; /* Fondo del ítem de menú */
+    color: #e9ecef; /* Color de texto del ítem */
+    border: none; /* Quitamos el borde por defecto */
+}
+
+.list-group-item:hover {
+    background-color: #495057; /* Color de fondo al pasar el cursor */
+}
+
+/* Contenido principal */
+.rounded-circle {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra suave alrededor de la imagen de perfil */
+}
+
+h2 {
+    margin-top: 1rem;
+    color: #ced4da; /* Color de texto más claro para el nombre */
+}
+
+.form-control {
+    background-color: #343a40; /* Fondo oscuro para la descripción */
+    color: #e9ecef; /* Color de texto claro */
+    border: 1px solid #495057; /* Borde oscuro */
+}
+
+.btn-dark {
+    background-color: #495057; /* Color de fondo más oscuro para el botón */
+    border: none;
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Color de fondo gris para el botón secundario */
+    border: none;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40; /* Fondo oscuro para el pie de página */
+    border-top: 1px solid #495057; /* Borde superior */
+}
