@@ -24,3 +24,7 @@ Estás mostrando un boceto de una interfaz de usuario (UI) que parece ser para u
 - **Responsividad**: Asegúrate de que el diseño sea responsivo y se vea bien en dispositivos móviles y de escritorio.
 
 En general, es un buen comienzo. Te sugiero que pruebes el diseño con algunos usuarios para obtener retroalimentación y hacer los ajustes necesarios. ¡Buena suerte!
+
+# UI Generated
+
+![Boceto UI](./images/gpt-generated.png)
