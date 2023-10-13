@@ -1,8 +1,8 @@
 # LICENCIA DE USO COMPARTIDO PARA GPT-DRAFT-PROFILE-UI
 
 ## Índice
-- [Español](#español)
-- [English](#english)
+- [Licencia Version Española](#español)
+- [License English Version](#english)
 
 ## Español
 
