@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil del Usuario</title>
+    <link rel="stylesheet" href="asana-styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header class="p-3 mb-3">
+        <h1>Perfil</h1>
+        <div class="float-right">
+            <button class="btn btn-dark mr-2" onclick="toggleTheme()">Cambiar Tema</button>
+            <button class="btn btn-secondary">Cerrar sesión</button>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <aside class="col-md-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item">Ítem 1</a>
+                    <a href="#" class="list-group-item">Ítem 2</a>
+                    <a href="#" class="list-group-item">Ítem 3</a>
+                </div>
+            </aside>
+            <main class="col-md-9">
+                <img src="./images/DALL·E 2023-10-13 22.17.44 - Photo of a quirky and comedic character with exaggerated glasses, a funny hat, and a big smile, appropriate for a user interface profile picture.png" alt="Imagen de perfil" class="rounded-circle mb-3" width="150">
+                <h2>Nombre</h2>
+                <h2>Apellidos</h2>
+                <textarea class="form-control mb-3" rows="4">Descripción larga...</textarea>
+                <button class="btn btn-dark">Guardar Cambios</button>
+            </main>
+        </div>
+    </div>
+    <footer class="p-3 mt-3">
+        Todos los derechos reservados © 2023
+    </footer>
+
+    <script src="../js/user-profile.js"></script>
+</body>
+</html>
